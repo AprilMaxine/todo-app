@@ -1,4 +1,3 @@
-// App.js
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { SafeAreaView } from 'react-native-safe-area-context';
@@ -14,7 +13,7 @@ const Stack = createNativeStackNavigator();
 export default function App() {
   const theme = {
     ...DefaultTheme,
-    colors: colors.colors, // Use colors from the imported module
+    colors: colors.colors,
     mode: 'exact',
   };
 

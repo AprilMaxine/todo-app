@@ -9,7 +9,7 @@ export default function TodoScreen() {
   const [editingTodo, setEditingTodo] = useState(null);
 
   const handleAddTodo = () => {
-    if (newTodo.trim() === '') return;
+    if (newTodo === '') return;
 
     if (editingTodo !== null) {
       const updatedTodos = todos.map((todo) =>
